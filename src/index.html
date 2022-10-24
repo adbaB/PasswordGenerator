@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <form class="form">
+      <p class="password" id="password">Contraseña Generada:</p>
+      <div>
+        <input type="range" name="" id="rangeInput" min="8" max="100" />
+        <label for="rangeInput">Cantidad de Caracteres de tu Contraseña</label>
+      </div>
+      <p class="rangeNumber">54</p>
+      <div class="option">
+        <input type="checkbox" name="" id="checkLetters" />
+        <label for="checkLetters">Incluir Letras</label>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="" id="checkNumber" />
+        <label for="checkNumber">Incluir Numeros</label>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="" id="checkCharacters" />
+        <label for="checkCharacters">Incluir Caracteres Especiales</label>
+      </div>
+      <div>
+        <button type="submit">Genera tu Contraseña</button>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
